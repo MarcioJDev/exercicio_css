@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo básico para o container e elementos */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px; /* Adiciona espaçamento entre as seções */
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+article header {
+    font-size: 0.9em;
+    color: #666;
+}
+
+article a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a seção de Esportes */
+section#sports {
+    background-color: #e0f7fa; /* Azul claro */
+}
+
+/* Estilo para a seção de Economia */
+section#economy {
+    background-color: #ffe0b2; /* Laranja claro */
+}
+
+/* Estilo para a seção de Genshin Impact */
+section#genshin {
+    background-color: #f3e5f5; /* Roxo claro */
+    border-left: 5px solid #7e57c2; /* Roxo mais escuro */
+}
+
+section#genshin h2 {
+    color: #7e57c2; /* Roxo escuro */
+}
+
+/* Estilo para a seção de Computadores */
+section#computers {
+    background-color: #e8f5e9; /* Verde claro */
+    border-left: 5px solid #43a047; /* Verde mais escuro */
+}
+
+section#computers h2 {
+    color: #43a047; /* Verde escuro */
+}
